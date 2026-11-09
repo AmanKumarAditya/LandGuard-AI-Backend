@@ -23,7 +23,10 @@ CORS(
     app,
     resources={
         r"/predict-delay": {
-            "origins": ["https://review-document-landguard-ai.v0.build"]
+            "origins": [
+    "https://review-document-landguard-ai.v0.build",
+    "https://review-document-azgdcxc0w-mr-devil2.vercel.app"
+]
         }
     },
     methods=["POST", "OPTIONS"],
